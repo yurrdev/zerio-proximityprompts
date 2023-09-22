@@ -11,7 +11,7 @@ description "Free and stunning proximity prompt made by Zerio from store.zerio-s
 escrow_ignore {"*.lua"}
 
 shared_scripts {
-    -- '@es_extended/imports.lua', -- Uncomment if you use esx legacy 1.8.5 or above
+    '@es_extended/imports.lua', -- Uncomment if you use esx legacy 1.8.5 or above
 }
 client_scripts {"config.lua", "client.lua"}
 server_scripts {"config.lua", "versioncheck.lua"}
